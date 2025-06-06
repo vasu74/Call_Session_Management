@@ -223,7 +223,6 @@ CREATE INDEX idx_session_events_metadata ON session_events USING GIN (metadata);
    - Multi-region deployment
    - Disaster recovery
    - Backup strategies
-
 ## Development Guidelines
 
 1. **Code Style**
@@ -248,3 +247,4 @@ CREATE INDEX idx_session_events_metadata ON session_events USING GIN (metadata);
    - Branch strategy
    - Commit messages
    - Release process
+
